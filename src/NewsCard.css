@@ -1,0 +1,25 @@
+.card-box{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cardbox{
+    width: 32.5%;
+    background-color: #181818;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 450px;
+    /* box-shadow: 8px 8px 1px 0px rgb(255, 255, 255); */
+    margin: 5px;
+}
+.cardbox-overlay{
+    padding: 15px;
+}
+.cardbox img{
+    width: 100%;
+}

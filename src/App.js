@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './header'
+import { NewsCard } from './NewsCard';
 
 function App() {
   return (
     <>
     <Header/>
+    <NewsCard />
     </>
   );
 }

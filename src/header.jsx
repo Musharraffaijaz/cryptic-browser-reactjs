@@ -10,26 +10,21 @@ function Header() {
     return (
         <header className="browser-header">
 
-    
-
-    <div className='seacrh-bar-container' >
-       <Searchbar/>
-    </div>
-
-
-    
-    <div className='header-icons'>
+<div className='header-icons'>
         <a href='#'><ArrowCircleLeftIcon sx={{ fontSize: 40}} /> </a>
         <a href='#'><ArrowCircleRightIcon sx={{ fontSize: 40}} /> </a>
         <a href='#'> <ReplayIcon sx={{ fontSize: 40}}  /> </a>
     </div>
 
     <div className="header-img">
-        <img src='logo.png' alt="Logo of cryptic" />
+       <a href=""> <img src='logo.png' alt="Logo of cryptic" /></a>
     </div>
     
     <div className="header-social-links">
         <SocialLinks/>
+    </div>
+    <div className='seacrh-bar-container' >
+       <Searchbar/>
     </div>
 
 
